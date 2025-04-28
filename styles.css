@@ -145,11 +145,16 @@ button {
 }
 
 .ts-quote {
-    width: 75%;
+    width: 50%;
 }
 
 .ts-quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937
+}
 
+.quote-author-text {
+    font-weight: bold;
 }
