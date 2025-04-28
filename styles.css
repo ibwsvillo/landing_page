@@ -12,6 +12,7 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -36,6 +37,7 @@ a {
     align-items: center;
     padding-left: 15%;
     padding-right: 15%;
+    min-width: 100%;
 }
 
 .header p {
@@ -92,3 +94,42 @@ button {
     font-weight: bold;
 }
 
+/* Second Section Styling */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+.ss-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cards,
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    height: 125px;
+    width: 125px;
+    border: 1px solid blue;
+    border-radius: 16px;
+}
+
+.ct-p {
+    height: 125px;
+    width: 125px;
+    font-size: 12px;
+    text-align: center;
+}
