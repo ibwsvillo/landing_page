@@ -28,7 +28,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 450px;
+    min-height: 475px;
 }
 
 .header, .fs-content {
@@ -84,6 +84,7 @@ button {
     align-items: center;
     width: 125px;
     height: 35px;
+    border: 2px solid white;
 }
 
 .content-rhs {
@@ -128,7 +129,7 @@ button {
 }
 
 .ct-p {
-    height: 125px;
+    height: 100px;
     width: 125px;
     font-size: 12px;
     text-align: center;
@@ -142,19 +143,66 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
+    min-height: 300px;
 }
 
 .ts-quote {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ts-quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1f2937
+    color: #1F2937
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%
 }
 
 .quote-author-text {
     font-weight: bold;
+}
+
+/* Fourth Section Styling */
+
+.fourth-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    color: white;
+}
+
+.fs-blue-box {
+    background-color: #3882f6;
+    min-width: 60%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 0 5%;
+}
+
+.fsbb-lhs-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fsbb-lhs-text {
+    font-size: 12px;
+    color: #e5e7eb 
+}
+
+.fsbb-rhs button {
+    border-radius: 8px;
+    border: 2px solid white;
 }
