@@ -177,7 +177,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 450px;
+    min-height: 350px;
     color: white;
 }
 
@@ -205,4 +205,17 @@ button {
 .fsbb-rhs button {
     border-radius: 8px;
     border: 2px solid white;
+}
+
+/* Fifth / Footer Section Styling */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    font-size: 12px;
 }
