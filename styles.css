@@ -28,16 +28,23 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 475px;
+    min-height: 35vh;
 }
 
-.header, .fs-content {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 15%;
     padding-right: 15%;
     min-width: 100%;
+}
+
+.fs-content {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-bottom: 50px;
 }
 
 .header p {
