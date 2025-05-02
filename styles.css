@@ -41,7 +41,7 @@ a {
 }
 
 .header p {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ a {
 
 .content-lhs, .content-rhs {
     height: 230px;
-    width: 500px;
+    width: 475px;
 }
 
 .content-lhs {
@@ -118,19 +118,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
 }
 
 .card {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     border: 1px solid blue;
     border-radius: 16px;
 }
 
 .ct-p {
     height: 100px;
-    width: 125px;
+    width: 150px;
     font-size: 12px;
     text-align: center;
 }
@@ -157,7 +157,8 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    margin-bottom: 10px;
 }
 
 .quote-author {
