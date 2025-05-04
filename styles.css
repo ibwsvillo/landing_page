@@ -1,229 +1,51 @@
-/* Global Styling */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid pink; */
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a {
-    text-decoration: none;
+/* Header Styling */
+
+.header, .hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15%;
+}
+
+.logo {
+    font-size: 1.5rem;
     color: #f9faf8;
+    font-weight: bold;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    color: #e5e7eb;
+    font-size: 0.75rem;
 }
 
 /* First Section Styling */
 
-.first-section {
-    background-color: #1f2937;
-    color: #f9faf8;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    min-height: 35vh;
+.hero-content, .hero-image {
+    flex: 1;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    min-width: 100%;
-}
-
-.fs-content {
-    display: flex;
-    justify-content: center;
-    gap: 300px;
-    margin-bottom: 50px;
-}
-
-.header p {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.header ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    font-size: 18px;
-}
-
-.content-lhs, .content-rhs {
-    height: 230px;
-    width: 475px;
-}
-
-.content-lhs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.lhs-title {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.lhs-text {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-button {
+.hero-button {
     background-color: #3882f6;
-    padding: 10px;
     color: #f9faf8;
-    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 125px;
-    height: 35px;
-    border: 2px solid white;
-}
-
-.content-rhs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    font-weight: bold;
-}
-
-/* Second Section Styling */
-
-.second-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    background-color: white;
-}
-
-.ss-title {
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.cards,
-.card-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-}
-
-.card {
-    height: 150px;
-    width: 150px;
-    border: 1px solid blue;
-    border-radius: 16px;
-}
-
-.ct-p {
-    height: 100px;
-    width: 150px;
-    font-size: 12px;
-    text-align: center;
-}
-
-/* Third Section Styling */
-
-.third-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #e5e7eb;
-    min-height: 300px;
-}
-
-.ts-quote {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ts-quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1F2937;
-    margin-bottom: 10px;
-}
-
-.quote-author {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%
-}
-
-.quote-author-text {
-    font-weight: bold;
-}
-
-/* Fourth Section Styling */
-
-.fourth-section {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 350px;
-    color: white;
-}
-
-.fs-blue-box {
-    background-color: #3882f6;
-    min-width: 60%;
-    min-height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 8px;
-    padding: 0 5%;
-}
-
-.fsbb-lhs-title {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.fsbb-lhs-text {
-    font-size: 12px;
-    color: #e5e7eb 
-}
-
-.fsbb-rhs button {
-    border-radius: 8px;
-    border: 2px solid white;
-}
-
-/* Fifth / Footer Section Styling */
-
-.footer {
-    background-color: #1f2937;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 50px;
-    font-size: 12px;
+    font-size: 1.125rem;
+    border: none;
+    cursor: pointer;
 }
