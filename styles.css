@@ -35,31 +35,46 @@ ul {
 
 /* First Section Styling */
 
+.hero .hero-image {
+    color: black;
+    background-color: #e5e7eb;
+    height: 100%;
+    width: 50%;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .hero {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 20%;
+    padding: 2rem 15%;
     font-size: 1.125rem;
-    gap: 2rem;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .hero-content, .hero-image {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .hero-main-text {
     color: #f9faf8;
     font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 0.50rem;
 }
 
 .hero-secondary-text {
     color: #e5e7eb;
     font-size: 1.125rem;
-    margin-bottom: 0.50rem;
 }
 
 .hero-button {
@@ -69,16 +84,9 @@ ul {
     border-radius: 0.5rem;
     font-weight: bold;
     font-size: 1.125rem;
-    border: none;
+    border: 1px solid white;
     cursor: pointer;
     margin-bottom: 2rem;
+    width: 175px;
 }
 
-.hero-image {
-    text-align: center;
-    color: black;
-    background-color: #e5e7eb;
-    height: 9.375rem;
-    width: 18.75rem;
-    font-size: 1.125rem;
-}
