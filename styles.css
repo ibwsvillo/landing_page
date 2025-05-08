@@ -90,3 +90,30 @@ ul {
     width: 175px;
 }
 
+/* Second Section Styling */
+
+.card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.cards {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardss {
+    border: 3px solid #3882f6;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
