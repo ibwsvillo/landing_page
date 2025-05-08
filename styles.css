@@ -97,8 +97,7 @@ ul {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 1rem;  
     padding: 2rem 0;
 }
 
@@ -108,12 +107,25 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
-.cardss {
+.square {
     border: 3px solid #3882f6;
     width: 10rem;
     height: 10rem;
     border-radius: 1rem;
 }
+
+.cards-containers p {
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    padding: 0.25rem 0;
+}
+
+
+
+
+
 
