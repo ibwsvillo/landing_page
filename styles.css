@@ -132,7 +132,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 15%;
+    padding: 3rem 15%;
 }
 
 .quote {
@@ -147,6 +147,19 @@ ul {
     color: #1f2937;
 }
 
+/* Footer Styling */
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 15%;
+    background-color: #1f2937;
+}
+
+.f-text {
+    color: white;
+    font-weight: bold;
+}
 
 
