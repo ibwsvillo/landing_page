@@ -147,6 +147,25 @@ ul {
     color: #1f2937;
 }
 
+/* Fourth Section Styling */
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15%;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+    gap: 10rem;
+    background-color: #3882f6;
+    border-radius: 1rem;
+}
+
 /* Footer Styling */
 
 .footer {
