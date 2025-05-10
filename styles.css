@@ -35,18 +35,6 @@ ul {
 
 /* First Section Styling */
 
-.hero .hero-image {
-    color: black;
-    background-color: #e5e7eb;
-    height: 100%;
-    width: 50%;
-    font-size: 1.125rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
 .hero {
     background-color: #1f2937;
     display: flex;
@@ -88,6 +76,17 @@ ul {
     cursor: pointer;
     margin-bottom: 2rem;
     width: 175px;
+}
+
+.hero .hero-image {
+    color: black;
+    background-color: #e5e7eb;
+    padding: 10% 0;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 /* Second Section Styling */
