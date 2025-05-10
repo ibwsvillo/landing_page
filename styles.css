@@ -163,7 +163,27 @@ ul {
     padding: 2rem 10%;
     gap: 10rem;
     background-color: #3882f6;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+}
+
+.lhs-title, .lhs-text {
+    color: #f9faf8;
+}
+
+.lhs-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.b-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 /* Footer Styling */
